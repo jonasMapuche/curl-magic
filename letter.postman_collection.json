@@ -1,0 +1,773 @@
+{
+	"info": {
+		"_postman_id": "9a8bdfd0-7ed2-4dc6-962a-9f4276fb0131",
+		"name": "letter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "frase",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"\"\n                        ],\n                        \"pronome\": [\n                            \"\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"\"\n                        ],\n                        \"adjetivo\": [\n                            \"\"\n                        ],\n                        \"interjeicao\": [\n                            \"\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"coffee\",\n                            \"tea\",\n                            \"milk\",\n                            \"juice\",\n                            \"water\",\n                            \"soda\",\n                            \"fish\",\n                            \"meat\",\n                            \"cheese\",\n                            \"ham\",\n                            \"bread\"\n                        ],\n                        \"pronome\": [\n                            \"I\",\n                            \"you\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to drink\",\n                            \"to eat\"\n                        ],\n                        \"preposicao\": [\n                            \"and\"\n                        ],\n                        \"interjeicao\": [\n                            \"thank you\",\n                            \"thanks\",\n                            \"please\",\n                            \"hi\",\n                            \"hello\",\n                            \"goodbye\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"father\",\n                            \"mother\",\n                            \"brother\",\n                            \"sister\",\n                            \"child\",\n                            \"daughter\",\n                            \"son\",\n                            \"children\",\n                            \"friend\",\n                            \"Portuguese\",\n                            \"English\",\n                            \"French\",\n                            \"Spanish\",\n                            \"cup\",\n                            \"glass\",\n                            \"a\"\n                        ],\n                        \"pronome\": [\n                            \"my\",\n                            \"your\",\n                            \"a\"\n                        ],\n                        \"artigo\": [\n                            \"a\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to speak\",\n                            \"to study\"\n                        ],\n                        \"preposicao\": [\n                            \"with\",\n                            \"of\"\n                        ],\n                        \"adverbio\": [\n                            \"today\",\n                            \"now\"\n                        ],\n                        \"adjetivo\": [\n                            \"a\"\n                        ],\n                        \"interjeicao\": [\n                            \"good morning\",\n                            \"good afternoon\",\n                            \"good evening\",\n                            \"good night\"\n                        ],\n                        \"numeral\": [\n                            \"a\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"teacher\",\n                            \"school\",\n                            \"home\",\n                            \"store\",\n                            \"bank\",\n                            \"soccer\",\n                            \"tennis\",\n                            \"volleyball\",\n                            \"basketball\",\n                            \"chess\",\n                            \"piano\",\n                            \"guitar\",\n                            \"violin\"\n                        ],\n                        \"pronome\": [\n                            \"sir\",\n                            \"ma'am\",\n                            \"the\"\n                        ],\n                        \"artigo\": [\n                            \"the\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to work\",\n                            \"to play\"\n                        ],\n                        \"preposicao\": [\n                            \"at\",\n                            \"the\",\n                            \"but\"\n                        ],\n                        \"adverbio\": [\n                            \"only\",\n                            \"there\",\n                            \"here\"\n                        ],\n                        \"adjetivo\": [\n                            \"alone\"\n                        ],\n                        \"interjeicao\": [\n                            \"excuse me\",\n                            \"sorry\",\n                            \"you're welcome\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"book\",\n                            \"car\",\n                            \"house\",\n                            \"game\",\n                            \"husband\",\n                            \"wife\",\n                            \"apple\",\n                            \"orange\",\n                            \"breakfast\",\n                            \"lunch\",\n                            \"dinner\"\n                        ],\n                        \"pronome\": [\n                            \"same\",\n                            \"I\",\n                            \"where\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to sleep\",\n                            \"to like\",\n                            \"to know\",\n                            \"to fell\",\n                            \"to spell\",\n                            \"to go\",\n                            \"am\"\n                        ],\n                        \"preposicao\": [\n                            \"or\",\n                            \"for\",\n                            \"this\"\n                        ],\n                        \"adverbio\": [\n                            \"yes\",\n                            \"no\",\n                            \"all\",\n                            \"where\"\n                        ],\n                        \"adjetivo\": [\n                            \"big\",\n                            \"small\",\n                            \"new\",\n                            \"old\",\n                            \"all\"\n                        ],\n                        \"interjeicao\": [\n                            \"for breakfast\",\n                            \"for lunch\",\n                            \"for dinner\",\n                            \"every day\",\n                            \"with me\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"office\",\n                            \"movies\",\n                            \"park\",\n                            \"church\",\n                            \"downtown\",\n                            \"boss\",\n                            \"mananger\",\n                            \"neighbor\",\n                            \"parents\",\n                            \"name\",\n                            \"day\",\n                            \"week\"\n                        ],\n                        \"pronome\": [\n                            \"what\",\n                            \"how\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to want\",\n                            \"to go\"\n                        ],\n                        \"preposicao\": [\n                            \"to\",\n                            \"to the\",\n                            \"in\",\n                            \"in the\",\n                            \"that\"\n                        ],\n                        \"adverbio\": [\n                            \"what\",\n                            \"how\",\n                            \"tomorrow\"\n                        ],\n                        \"adjetivo\": [\n                            \"\"\n                        ],\n                        \"interjeicao\": [\n                            \"last name\",\n                            \"so long\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"cat\",\n                            \"dog\",\n                            \"bicycle\",\n                            \"table\",\n                            \"German\",\n                            \"Chinese\",\n                            \"weekend\",\n                            \"time\",\n                            \"sweet\",\n                            \"home\"\n                        ],\n                        \"pronome\": [\n                            \"where\",\n                            \"some\",\n                            \"every\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to have\",\n                            \"to understand\",\n                            \"to love\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"where\",\n                            \"also\",\n                            \"too\",\n                            \"every\"\n                        ],\n                        \"adjetivo\": [\n                            \"every\",\n                            \"sweet\"\n                        ],\n                        \"interjeicao\": [\n                            \"see you\",\n                            \"see you later\",\n                            \"see you tomorrow\",\n                            \"on weekends\",\n                            \"e-mail account\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"frase\": [\r\n        {\r\n            \"name\": \"periodo\",\r\n            \"oracao\": [\r\n                {\r\n                    \"sujeito\": {\r\n                        \"substativo\": [\r\n                            \"family\",\r\n                            \"city\",\r\n                            \"mail\",\r\n                            \"rice\",\r\n                            \"beens\",\r\n                            \"potato\",\r\n                            \"chicken\",\r\n                            \"turkey\",\r\n                            \"pork\",\r\n                            \"steak\",\r\n                            \"French fries\",\r\n                            \"vegetables\",\r\n                            \"pasta\"\r\n                        ],\r\n                        \"pronome\": [\r\n                            \"when\", \"many\"\r\n                        ]\r\n                    },\r\n                    \"predicado\": {\r\n                        \"verbo\": [\r\n                            \"to need\",\r\n                            \"to prefer\",\r\n                            \"to be\",\r\n                            \"wanna\",\r\n                            \"to do\"\r\n                        ],\r\n                        \"preposicao\": [\r\n                            \"\"\r\n                        ],\r\n                        \"adverbio\": [\r\n                            \"when\", \"many\"\r\n                        ],\r\n                        \"adjetivo\": [\r\n                            \"many\"\r\n                        ],\r\n                        \"interjeicao\": [\r\n                            \"very much\",\r\n                            \"a little\",\r\n                            \"sometimes\",\r\n                            \"rare\",\r\n                            \"medium\",\r\n                            \"well done\"\r\n                        ]\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 13",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"frase\": [\r\n        {\r\n            \"name\": \"periodo\",\r\n            \"oracao\": [\r\n                {\r\n                    \"sujeito\": {\r\n                        \"substativo\": [\r\n                            \"money\",\r\n                            \"ice cream\",\r\n                            \"candy\",\r\n                            \"chocolate\",\r\n                            \"bubble gum\",\r\n                            \"pencil\",\r\n                            \"pen\",\r\n                            \"dress\",\r\n                            \"blouse\",\r\n                            \"skirt\",\r\n                            \"coat\",\r\n                            \"shirt\",\r\n                            \"T-shirt\",\r\n                            \"pants\",\r\n                            \"shoes\",\r\n                            \"boots\",\r\n                            \"apartment\"\r\n                        ],\r\n                        \"pronome\": [\r\n                            \"\"\r\n                        ]\r\n                    },\r\n                    \"predicado\": {\r\n                        \"verbo\": [\r\n                            \"to buy\",\r\n                            \"to sell\"\r\n                        ],\r\n                        \"preposicao\": [\r\n                            \"\"\r\n                        ],\r\n                        \"adverbio\": [\r\n                            \"\"\r\n                        ],\r\n                        \"adjetivo\": [\r\n                            \"\"\r\n                        ],\r\n                        \"interjeicao\": [\r\n                            \"Nice to meet you\",\r\n                            \"Nice to meet you, too\"\r\n                        ],\r\n                        \"numeral\": [\r\n                            \"one\",\r\n                            \"two\",\r\n                            \"three\",\r\n                            \"four\",\r\n                            \"five\",\r\n                            \"six\",\r\n                            \"seven\",\r\n                            \"eight\",\r\n                            \"nine\",\r\n                            \"ten\",\r\n                            \"eleven\",\r\n                            \"twelve\",\r\n                            \"thrirteen\",\r\n                            \"fourteen\",\r\n                            \"fifteen\",\r\n                            \"sixteen\",\r\n                            \"seventeen\",\r\n                            \"eighteen\",\r\n                            \"nineteen\",\r\n                            \"twenty\"\r\n                        ]\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 15",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"frase\": [\r\n        {\r\n            \"name\": \"periodo\",\r\n            \"oracao\": [\r\n                {\r\n                    \"sujeito\": {\r\n                        \"substativo\": [\r\n                            \"grandfather\",\r\n                            \"grandmother\",\r\n                            \"grandparents\",\r\n                            \"grandson\",\r\n                            \"granddaughter\",\r\n                            \"grandchildren\",\r\n                            \"cousin\",\r\n                            \"relative\",\r\n                            \"beach\",\r\n                            \"cookie\",\r\n                            \"cake\",\r\n                            \"popcorn\",\r\n                            \"slice\",\r\n                            \"piece\",\r\n                            \"teens\"\r\n                        ],\r\n                        \"pronome\": [\r\n                            \"\"\r\n                        ]\r\n                    },\r\n                    \"predicado\": {\r\n                        \"verbo\": [\r\n                            \"to help\",\r\n                            \"to know\",\r\n                            \"to count\"\r\n                        ],\r\n                        \"preposicao\": [\r\n                            \"\"\r\n                        ],\r\n                        \"adverbio\": [\r\n                            \"more\"\r\n                        ],\r\n                        \"adjetivo\": [\r\n                            \"\"\r\n                        ],\r\n                        \"interjeicao\": [\r\n                            \"how many\",\r\n                            \"about\"\r\n                        ],\r\n                        \"numeral\": [\r\n                            \"twenty\",\r\n                            \"twenty-one\",\r\n                            \"twenty-two\",\r\n                            \"twenty-three\",\r\n                            \"twenty-four\",\r\n                            \"twenty-five\",\r\n                            \"twenty-six\",\r\n                            \"twenty-seven\",\r\n                            \"twenty-eight\",\r\n                            \"twenty-nine\",\r\n                            \"thirty\",\r\n                            \"fourty\",\r\n                            \"fifty\",\r\n                            \"seventy\",\r\n                            \"eighty\",\r\n                            \"ninety\",\r\n                            \"one hundred\",\r\n                            \"two hundred\",\r\n                            \"one thousand\"\r\n                        ]\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 17",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"frase\": [\r\n        {\r\n            \"name\": \"periodo\",\r\n            \"oracao\": [\r\n                {\r\n                    \"sujeito\": {\r\n                        \"substativo\": [\r\n                            \"newspaper\",\r\n                            \"magazine\",\r\n                            \"letter\",\r\n                            \"e-mail\",\r\n                            \"boy\",\r\n                            \"girl\",\r\n                            \"boyfriend\",\r\n                            \"girlfriend\",\r\n                            \"dad\",\r\n                            \"mon\",\r\n                            \"kid\",\r\n                            \"toy\",\r\n                            \"bed\",\r\n                            \"moon\",\r\n                            \"midnight\",\r\n                            \"o'clock\"\r\n                        ],\r\n                        \"pronome\": [\r\n                            \"many\",\r\n                            \"very\",\r\n                            \"much\",\r\n                            \"very much\",\r\n                            \"so much\"\r\n                        ]\r\n                    },\r\n                    \"predicado\": {\r\n                        \"verbo\": [\r\n                            \"to read\",\r\n                            \"to write\",\r\n                            \"to love\"\r\n                        ],\r\n                        \"preposicao\": [\r\n                            \"until\",\r\n                            \"by\"\r\n                        ],\r\n                        \"adverbio\": [\r\n                            \"many\",\r\n                            \"until\",\r\n                            \"by\",\r\n                            \"really\",\r\n                            \"very\",\r\n                            \"much\",\r\n                            \"very much\",\r\n                            \"so much\"\r\n                        ],\r\n                        \"adjetivo\": [\r\n                            \"many\",\r\n                            \"very\",\r\n                            \"much\",\r\n                            \"very much\",\r\n                            \"so much\"\r\n                        ],\r\n                        \"interjeicao\": [\r\n                            \"what time\",\r\n                            \"to get up\",\r\n                            \"to go to bed\",\r\n                            \"have you ever\"\r\n                        ]\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 19",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"frase\": [\r\n        {\r\n            \"name\": \"periodo\",\r\n            \"oracao\": [\r\n                {\r\n                    \"sujeito\": {\r\n                        \"substativo\": [\r\n                            \"window\",\r\n                            \"door\",\r\n                            \"room\",\r\n                            \"bedroom\",\r\n                            \"bathroom\",\r\n                            \"kitchen\",\r\n                            \"flower\",\r\n                            \"tree\",\r\n                            \"pie\",\r\n                            \"ice\",\r\n                            \"food\"\r\n                        ],\r\n                        \"pronome\": [\r\n                            \"he\",\r\n                            \"she\",\r\n                            \"it\"\r\n                        ]\r\n                    },\r\n                    \"predicado\": {\r\n                        \"verbo\": [\r\n                            \"to open\",\r\n                            \"to close\"\r\n                        ],\r\n                        \"preposicao\": [\r\n                            \"\"\r\n                        ],\r\n                        \"adverbio\": [\r\n                            \"more\"\r\n                        ],\r\n                        \"adjetivo\": [\r\n                            \"hot\",\r\n                            \"cold\"\r\n                        ],\r\n                        \"interjeicao\": [\r\n                            \"this morning\",\r\n                            \"this afternoon\",\r\n                            \"tonight\",\r\n                            \"tomorrow morning\",\r\n                            \"e-mail box\"\r\n                        ]\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 21",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"pear\",\n                            \"strawberry\",\n                            \"papaya\",\n                            \"watermelon\",\n                            \"melon\",\n                            \"pineapple\",\n                            \"banana\",\n                            \"grape\",\n                            \"fruit\",\n                            \"snack\",\n                            \"language\",\n                            \"freeway\",\n                            \"curious\"\n                        ],\n                        \"pronome\": [\n                            \"why\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to live\",\n                            \"to start\"\n                        ],\n                        \"preposicao\": [\n                            \"from\"\n                        ],\n                        \"adverbio\": [\n                            \"near\",\n                            \"far\"\n                        ],\n                        \"adjetivo\": [\n                            \"near\",\n                            \"far\",\n                            \"curious\"\n                        ],\n                        \"interjeicao\": [\n                            \"to have breakfast\",\n                            \"to have lunch\",\n                            \"to have dinner\",\n                            \"to have a snack\"\n                        ],\n                        \"conjunção\": [\n                            \"because\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 23",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"month\",\n                            \"year\",\n                            \"thing\",\n                            \"party\",\n                            \"vacation\",\n                            \"Christimas\",\n                            \"Easter\",\n                            \"China\",\n                            \"Germany\",\n                            \"France\",\n                            \"Spain\",\n                            \"England\",\n                            \"blue\",\n                            \"red\",\n                            \"yellow\",\n                            \"black\",\n                            \"white\",\n                            \"green\",\n                            \"orange\",\n                            \"pink\",\n                            \"gray\",\n                            \"brown\",\n                            \"purple\",\n                            \"ground\",\n                            \"violet\",\n                            \"indigo\",\n                            \"color\",\n                            \"rainwbow\",\n                            \"rain\",\n                            \"beauty\"\n                        ],\n                        \"pronome\": [\n                            \"I\",\n                            \"you\",\n                            \"he\",\n                            \"she\",\n                            \"it\",\n                            \"we\",\n                            \"you\",\n                            \"they\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to come\",\n                            \"to stay\",\n                            \"to fall\",\n                            \"to help\",\n                            \"to say\",\n                            \"to see\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"before\",\n                            \"after\",\n                            \"down\"\n                        ],\n                        \"adjetivo\": [\n                            \"good\",\n                            \"bad\",\n                            \"next\"\n                        ],\n                        \"interjeicao\": [\n                            \"very well\",\n                            \"on vacation\",\n                            \"this time\",\n                            \"next time\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 25",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"man\",\n                            \"woman\",\n                            \"uncle\",\n                            \"aunt\",\n                            \"test\",\n                            \"job\",\n                            \"secretary\",\n                            \"cook\",\n                            \"drugstore\",\n                            \"post office\",\n                            \"gas station\",\n                            \"state\",\n                            \"country\"\n                        ],\n                        \"pronome\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to cook\",\n                            \"to visit\",\n                            \"to dance\",\n                            \"to talk\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"\"\n                        ],\n                        \"adjetivo\": [\n                            \"everywhere\"\n                        ],\n                        \"interjeicao\": [\n                            \"a lot\",\n                            \"a lot of\",\n                            \"everywhere\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 27",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"homework\",\n                            \"class\",\n                            \"classroom\",\n                            \"company\",\n                            \"factory\",\n                            \"doctor\",\n                            \"dentist\",\n                            \"meeting\",\n                            \"dollar\",\n                            \"disher\",\n                            \"computer\",\n                            \"Sunday\",\n                            \"Monday\",\n                            \"Tuesday\",\n                            \"Wendnesday\",\n                            \"Thursday\",\n                            \"Friday\",\n                            \"Saturday\",\n                            \"favor\"\n                        ],\n                        \"pronome\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to do\",\n                            \"to make\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"almost\",\n                            \"always\",\n                            \"never\",\n                            \"during\"\n                        ],\n                        \"adjetivo\": [\n                            \"\"\n                        ],\n                        \"interjeicao\": [\n                            \"how much\",\n                            \"do me a favor\",\n                            \"to make the bed\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 29",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"watch\",\n                            \"clock\",\n                            \"truck\",\n                            \"shuttle\",\n                            \"airport\",\n                            \"parking lot\",\n                            \"restaurant\",\n                            \"sandwich\",\n                            \"snack bar\",\n                            \"waiter\",\n                            \"waitress\",\n                            \"motorcycle\",\n                            \"train\",\n                            \"subway\",\n                            \"trolley\",\n                            \"foot\",\n                            \"tear\"\n                        ],\n                        \"pronome\": [\n                            \"how much\",\n                            \"all\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to finish\",\n                            \"to try\",\n                            \"to be\",\n                            \"to dream\",\n                            \"to sleep\",\n                            \"will\"\n                        ],\n                        \"preposicao\": [\n                            \"by\",\n                            \"on\"\n                        ],\n                        \"adverbio\": [\n                            \"during\",\n                            \"all right\",\n                            \"late\",\n                            \"too\",\n                            \"so\",\n                            \"all\"\n                        ],\n                        \"adjetivo\": [\n                            \"nice\",\n                            \"little\",\n                            \"sad\",\n                            \"all\"\n                        ],\n                        \"interjeicao\": [\n                            \"all day long\",\n                            \"all night long\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 31",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"English\",\n                            \"Portuguese\",\n                            \"Chinese\",\n                            \"Japanese\",\n                            \"Italian\",\n                            \"German\",\n                            \"French\",\n                            \"Spanish\",\n                            \"brother\",\n                            \"sister\",\n                            \"father\",\n                            \"mother\",\n                            \"parents\",\n                            \"coffee\",\n                            \"milk\",\n                            \"chocolate\",\n                            \"tea\",\n                            \"water\",\n                            \"juice\",\n                            \"soda\",\n                            \"soft drink\",\n                            \"green tea\",\n                            \"fish\",\n                            \"meat\",\n                            \"pancakes\",\n                            \"syrup\",\n                            \"cereal\",\n                            \"toast\",\n                            \"jam\",\n                            \"jelly\",\n                            \"peanut butter\",\n                            \"today\"\n                        ],\n                        \"pronome\": [\n                            \"I\",\n                            \"you\",\n                            \"my\",\n                            \"your\",\n                            \"don't\",\n                            \"doesn't\",\n                            \"do\",\n                            \"does\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to drink\",\n                            \"drinks\",\n                            \"to eat\",\n                            \"eats\",\n                            \"to speak\",\n                            \"speaks\",\n                            \"to talk\",\n                            \"talks\",\n                            \"to need\",\n                            \"needs\"\n                        ],\n                        \"preposicao\": [\n                            \"with\",\n                            \"and\"\n                        ],\n                        \"adverbio\": [\n                            \"now\",\n                            \"today\",\n                            \"only\",\n                            \"not\"\n                        ],\n                        \"adjetivo\": [\n                            \"\"\n                        ],\n                        \"interjeicao\": [\n                            \"thank you\",\n                            \"thanks\",\n                            \"you're welcome\",\n                            \"please\",\n                            \"in the morning\",\n                            \"in the afternoon\",\n                            \"in the evening\",\n                            \"at night\",\n                            \"every day\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson  32",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"son\",\n                            \"daughter\",\n                            \"children\",\n                            \"sibling\",\n                            \"uncle\",\n                            \"aunt\",\n                            \"nephew\",\n                            \"niece\",\n                            \"boy\",\n                            \"girl\",\n                            \"donut\",\n                            \"egg\",\n                            \"bread\",\n                            \"cheese\",\n                            \"ham\",\n                            \"slice\",\n                            \"cup\",\n                            \"mug\",\n                            \"glass\",\n                            \"bowl\",\n                            \"a\",\n                            \"am\",\n                            \"apple\",\n                            \"orange\",\n                            \"tomorrow\",\n                            \"week\",\n                            \"math\",\n                            \"geography\",\n                            \"history\",\n                            \"science\",\n                            \"hockey\",\n                            \"golf\",\n                            \"baseball\",\n                            \"soccer\",\n                            \"game\",\n                            \"instrument\",\n                            \"piano\",\n                            \"guitar\",\n                            \"keyboard\"\n                        ],\n                        \"pronome\": [\n                            \"a\",\n                            \"an\",\n                            \"what\",\n                            \"where\",\n                            \"when\"\n                        ],\n                        \"artigo\": [\n                            \"a\",\n                            \"an\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to want\",\n                            \"wants\",\n                            \"to work\",\n                            \"works\",\n                            \"to study\",\n                            \"studies\",\n                            \"to play\",\n                            \"plays\"\n                        ],\n                        \"preposicao\": [\n                            \"of\",\n                            \"but\"\n                        ],\n                        \"adverbio\": [\n                            \"no\",\n                            \"yes\",\n                            \"when\",\n                            \"where\"\n                        ],\n                        \"adjetivo\": [\n                            \"a\",\n                            \"an\"\n                        ],\n                        \"interjeicao\": [\n                            \"what\",\n                            \"good morning\",\n                            \"good afternoon\",\n                            \"good evening\",\n                            \"good night\",\n                            \"sorry\",\n                            \"excuse me\",\n                            \"hi\",\n                            \"hello\",\n                            \"bye-bye\",\n                            \"goodbye\",\n                            \"the day after tomorrow\"\n                        ],\n                        \"numeral\": [\n                            \"a\",\n                            \"an\"\n                        ],\n                        \"conjuncao\": [\n                            \"but\",\n                            \"what\",\n                            \"when\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 33",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"movies\",\n                            \"school\",\n                            \"store\",\n                            \"house\",\n                            \"home\",\n                            \"church\",\n                            \"downtown\",\n                            \"playground\",\n                            \"restroon\",\n                            \"men's room\",\n                            \"ladie's room\",\n                            \"teacher\",\n                            \"manager\",\n                            \"iced\",\n                            \"convenience store\",\n                            \"roommate\",\n                            \"Sunday\",\n                            \"Monday\",\n                            \"Tuesday\",\n                            \"Wednesday\",\n                            \"Thursday\",\n                            \"Friday\",\n                            \"Saturday\"\n                        ],\n                        \"pronome\": [\n                            \"we\"\n                        ],\n                        \"artigo\": [\n                            \"the\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to like\",\n                            \"likes\",\n                            \"to go\",\n                            \"goes\",\n                            \"to help\",\n                            \"helps\",\n                            \"to sleep\",\n                            \"sleeps\"\n                        ],\n                        \"preposicao\": [\n                            \"to\",\n                            \"the\",\n                            \"to the\",\n                            \"in\",\n                            \"in the\",\n                            \"or\",\n                            \"at\"\n                        ],\n                        \"adverbio\": [\n                            \"together\",\n                            \"out\"\n                        ],\n                        \"adjetivo\": [\n                            \"cold\",\n                            \"hot\",\n                            \"together\"\n                        ],\n                        \"interjeicao\": [\n                            \"very much\",\n                            \"with me\",\n                            \"weekend\",\n                            \"see you later\",\n                            \"see you tomorrow\",\n                            \"see you\",\n                            \"so long\",\n                            \"out\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 35",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"book\",\n                            \"bank\",\n                            \"work\",\n                            \"time\",\n                            \"car\",\n                            \"money\",\n                            \"cash\",\n                            \"dollar\",\n                            \"change\",\n                            \"credit\",\n                            \"coupon\",\n                            \"husband\",\n                            \"wife\",\n                            \"family\",\n                            \"soup\",\n                            \"brunch\",\n                            \"dinner\",\n                            \"supper\",\n                            \"USA\",\n                            \"computer\",\n                            \"password\",\n                            \"bucks\",\n                            \"money order\",\n                            \"ring\",\n                            \"song\",\n                            \"Greek\",\n                            \"length\",\n                            \"hair\",\n                            \"fortune\",\n                            \"fame\",\n                            \"size\"\n                        ],\n                        \"pronome\": [\n                            \"this\",\n                            \"that\",\n                            \"these\",\n                            \"those\",\n                            \"some\",\n                            \"which\",\n                            \"will\",\n                            \"anything\",\n                            \"everybody\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to have\",\n                            \"has\",\n                            \"to understand\",\n                            \"understands\",\n                            \"to buy\",\n                            \"buys\",\n                            \"to sell\",\n                            \"sells\",\n                            \"to give\",\n                            \"May I\",\n                            \"to cry\",\n                            \"to reach out\",\n                            \"to wear\",\n                            \"can\"\n                        ],\n                        \"preposicao\": [\n                            \"for\",\n                            \"about\"\n                        ],\n                        \"adverbio\": [\n                            \"much\",\n                            \"many\",\n                            \"enough\"\n                        ],\n                        \"adjetivo\": [\n                            \"big\",\n                            \"small\",\n                            \"large\",\n                            \"little\",\n                            \"new\",\n                            \"old\",\n                            \"common\",\n                            \"size\"\n                        ],\n                        \"interjeicao\": [\n                            \"for breakfast\",\n                            \"for lunch\",\n                            \"for brunch\",\n                            \"for dinner\",\n                            \"how much\",\n                            \"how many\",\n                            \"it doesn't matter\"\n                        ],\n                        \"numeral\": [\n                            \"zero\",\n                            \"one\",\n                            \"two\",\n                            \"three\",\n                            \"four\",\n                            \"five\",\n                            \"six\",\n                            \"seven\",\n                            \"eight\",\n                            \"nine\",\n                            \"ten\",\n                            \"eleven\",\n                            \"twelve\",\n                            \"thirteen\",\n                            \"fourteen\",\n                            \"fifteen\",\n                            \"sixteen\",\n                            \"seventeen\",\n                            \"eighteen\",\n                            \"nineteen\",\n                            \"twenty\",\n                            \"twenty-one\",\n                            \"twenty-two\",\n                            \"thirty\",\n                            \"forty\",\n                            \"fifty\",\n                            \"sixty\",\n                            \"seventy\",\n                            \"eighty\",\n                            \"ninety\",\n                            \"one hundred\",\n                            \"two hundred\",\n                            \"one thousand\",\n                            \"two thousand\",\n                            \"ten thousand\",\n                            \"eighteen twenty\",\n                            \"nineteen eighty-seven\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 37",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"boss\",\n                            \"waiter\",\n                            \"waitress\",\n                            \"newspaper\",\n                            \"magazine\",\n                            \"letter\",\n                            \"mail\",\n                            \"post office\",\n                            \"postcard\",\n                            \"card\",\n                            \"postman\",\n                            \"mailman\",\n                            \"apartment\",\n                            \"month\",\n                            \"animal\",\n                            \"chicken\",\n                            \"pork\",\n                            \"turkey\",\n                            \"Thanksgiving\",\n                            \"holiday\",\n                            \"bike\",\n                            \"bicycle\",\n                            \"motorcycle\",\n                            \"e-mail account\"\n                        ],\n                        \"pronome\": [\n                            \"how\",\n                            \"as\",\n                            \"why\",\n                            \"his\",\n                            \"hes\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to prefer\",\n                            \"prefers\",\n                            \"to know\",\n                            \"knows\",\n                            \"to read\",\n                            \"reads\",\n                            \"to write\",\n                            \"writes\",\n                            \"to work\"\n                        ],\n                        \"preposicao\": [\n                            \"how\",\n                            \"as\",\n                            \"by\"\n                        ],\n                        \"adverbio\": [\n                            \"here\",\n                            \"there\",\n                            \"kind\"\n                        ],\n                        \"adjetivo\": [\n                            \"kind\"\n                        ],\n                        \"interjeicao\": [\n                            \"how\",\n                            \"as\",\n                            \"this morning\",\n                            \"this afternoon\",\n                            \"tonight\",\n                            \"tomorrow morning\",\n                            \"tomorrow night\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"because\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 39",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"door\",\n                            \"window\",\n                            \"drugstore\",\n                            \"company\",\n                            \"office\",\n                            \"state\",\n                            \"farm\",\n                            \"beach\",\n                            \"museum\",\n                            \"snack bar\",\n                            \"country\",\n                            \"river\",\n                            \"airport\",\n                            \"freeway\",\n                            \"park\",\n                            \"corner\",\n                            \"bridge\",\n                            \"neighbor\",\n                            \"relatives\",\n                            \"noon\",\n                            \"midnight\",\n                            \"e-mail box\",\n                            \"chat room\",\n                            \"o'clok\",\n                            \"past\",\n                            \"half\",\n                            \"quarter\",\n                            \"middle\",\n                            \"best\"\n                        ],\n                        \"pronome\": [\n                            \"more\",\n                            \"I\",\n                            \"you\",\n                            \"he\",\n                            \"she\",\n                            \"it\",\n                            \"we\",\n                            \"they\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to open\",\n                            \"opens\",\n                            \"to close\",\n                            \"closes\",\n                            \"to live\",\n                            \"lives\",\n                            \"to visit\",\n                            \"visits\",\n                            \"to come\"\n                        ],\n                        \"preposicao\": [\n                            \"until\",\n                            \"by\",\n                            \"from\"\n                        ],\n                        \"adverbio\": [\n                            \"until\",\n                            \"by\",\n                            \"more\",\n                            \"near\",\n                            \"far\",\n                            \"early\",\n                            \"late\",\n                            \"usually\",\n                            \"then\",\n                            \"best\",\n                            \"still\",\n                            \"quickly\"\n                        ],\n                        \"adjetivo\": [\n                            \"near\",\n                            \"far\",\n                            \"fast\",\n                            \"best\"\n                        ],\n                        \"interjeicao\": [\n                            \"to get up\",\n                            \"to go to bed\",\n                            \"to have breakfast\",\n                            \"to have lunch\",\n                            \"to have dinner\",\n                            \"all over again\"\n                        ],\n                        \"numeral\": [\n                            \"half\",\n                            \"quarter\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 41",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"vacation\",\n                            \"trip\",\n                            \"job\",\n                            \"meeting\",\n                            \"class\",\n                            \"test\",\n                            \"homework\",\n                            \"course\",\n                            \"music\",\n                            \"art\",\n                            \"swinmming pool\",\n                            \"swimming\",\n                            \"year\",\n                            \"semester\",\n                            \"thing\",\n                            \"computer science\",\n                            \"meaning\",\n                            \"streetcar\",\n                            \"plane\",\n                            \"train\",\n                            \"car\",\n                            \"foot\",\n                            \"subway\",\n                            \"bus\",\n                            \"nowhere\",\n                            \"mind\"\n                        ],\n                        \"pronome\": [\n                            \"my\",\n                            \"your\",\n                            \"his\",\n                            \"her\",\n                            \"its\",\n                            \"our\",\n                            \"their\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to start\",\n                            \"starts\",\n                            \"to finish\",\n                            \"finishes\",\n                            \"to say\",\n                            \"says\",\n                            \"to stay\",\n                            \"stays\",\n                            \"to tell\",\n                            \"to call\",\n                            \"to say\"\n                        ],\n                        \"preposicao\": [\n                            \"still\",\n                            \"yet\"\n                        ],\n                        \"adverbio\": [\n                            \"always\",\n                            \"never\",\n                            \"before\",\n                            \"after\",\n                            \"then\"\n                        ],\n                        \"adjetivo\": [\n                            \"next\",\n                            \"good\",\n                            \"bad\"\n                        ],\n                        \"interjeicao\": [\n                            \"that's okay\",\n                            \"very well\",\n                            \"right away\",\n                            \"on vacation\",\n                            \"there is\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 43",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"food\",\n                            \"rice\",\n                            \"beans\",\n                            \"salad\",\n                            \"French fries\",\n                            \"potato\",\n                            \"pasta\",\n                            \"steak\",\n                            \"baked\",\n                            \"grilled\",\n                            \"cooked\",\n                            \"dessert\",\n                            \"sausage\",\n                            \"roll\",\n                            \"oatmate\",\n                            \"sweetener\",\n                            \"birthday\",\n                            \"pineapple\",\n                            \"grape\",\n                            \"pear\",\n                            \"strawberry\",\n                            \"pie\",\n                            \"piece\",\n                            \"ice\",\n                            \"movie\",\n                            \"brown sugar\",\n                            \"little\",\n                            \"Law\",\n                            \"assistant\",\n                            \"hospital\",\n                            \"court\",\n                            \"manager\"\n                        ],\n                        \"pronome\": [\n                            \"all\",\n                            \"did\",\n                            \"didn't\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to take\",\n                            \"took\",\n                            \"to like\",\n                            \"liked\",\n                            \"to go\",\n                            \"went\",\n                            \"to know\",\n                            \"knew\",\n                            \"to talk\",\n                            \"talked\",\n                            \"did\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"all\",\n                            \"yesterday\",\n                            \"didn't\",\n                            \"not\"\n                        ],\n                        \"adjetivo\": [\n                            \"all\",\n                            \"last\",\n                            \"rare\",\n                            \"medium\",\n                            \"well done\"\n                        ],\n                        \"interjeicao\": [\n                            \"chocolate chips\",\n                            \"scrambled eggs\",\n                            \"boiled eggs\",\n                            \"a lot\",\n                            \"a lot off\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 45",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"dentist\",\n                            \"doctor\",\n                            \"lawyer\",\n                            \"engineer\",\n                            \"secretary\",\n                            \"police office\",\n                            \"mechanic\",\n                            \"business\",\n                            \"businessman\",\n                            \"businesswoman\",\n                            \"administrator\",\n                            \"law\",\n                            \"Law\",\n                            \"hospital\",\n                            \"restaurant\",\n                            \"factory\",\n                            \"flute\",\n                            \"violin\",\n                            \"field\",\n                            \"court\",\n                            \"tennis\",\n                            \"basketball\",\n                            \"volleyball\",\n                            \"checkers\",\n                            \"sweetie\",\n                            \"honey\"\n                        ],\n                        \"pronome\": [\n                            \"who\",\n                            \"me\",\n                            \"you\",\n                            \"him\",\n                            \"her\",\n                            \"it\",\n                            \"us\",\n                            \"them\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to work\",\n                            \"worked\",\n                            \"to study\",\n                            \"studied\",\n                            \"to play\",\n                            \"played\",\n                            \"to sleep\",\n                            \"slept\",\n                            \"to travel\",\n                            \"traveled\",\n                            \"to dream\",\n                            \"to drive\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"soon\",\n                            \"later\",\n                            \"during\",\n                            \"again\",\n                            \"together\"\n                        ],\n                        \"adjetivo\": [\n                            \"sweetie\",\n                            \"sweetheart\",\n                            \"together\",\n                            \"honey\"\n                        ],\n                        \"interjeicao\": [\n                            \"once again\",\n                            \"all day long\",\n                            \"all night long\",\n                            \"to work out\",\n                            \"dentist's office\",\n                            \"doctor's office\",\n                            \"each other\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"soon\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 47",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"customer\",\n                            \"price\",\n                            \"cards\",\n                            \"chess\",\n                            \"electric guitar\",\n                            \"drums\",\n                            \"party\",\n                            \"kitchen\",\n                            \"bedroom\",\n                            \"leisure\",\n                            \"mail\",\n                            \"library\",\n                            \"gas station\",\n                            \"supermarket\",\n                            \"bakery\",\n                            \"grocery store\",\n                            \"snack bar\",\n                            \"line\",\n                            \"some\",\n                            \"any\",\n                            \"January\",\n                            \"February\",\n                            \"Match\",\n                            \"April\",\n                            \"June\",\n                            \"July\",\n                            \"August\",\n                            \"Setember\",\n                            \"October\",\n                            \"November\",\n                            \"December\",\n                            \"cowboy\",\n                            \"rope\",\n                            \"hand\",\n                            \"victory\",\n                            \"pian\"\n                        ],\n                        \"pronome\": [\n                            \"some\",\n                            \"any\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to read\",\n                            \"read\",\n                            \"to write\",\n                            \"wrote\",\n                            \"to say\",\n                            \"said\",\n                            \"to stay\",\n                            \"stayed\",\n                            \"to learn\",\n                            \"learned\",\n                            \"to believe\",\n                            \"to dream\",\n                            \"to feel\",\n                            \"to get tough\",\n                            \"to give up\",\n                            \"to grow up\",\n                            \"to ponder\",\n                            \"to think\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"just\",\n                            \"too\",\n                            \"also\"\n                        ],\n                        \"adjetivo\": [\n                            \"fast\",\n                            \"slowly\",\n                            \"quickly\",\n                            \"short\",\n                            \"long\",\n                            \"orvertime\"\n                        ],\n                        \"interjeicao\": [\n                            \"me too\",\n                            \"to take a nap\",\n                            \"whatever\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"just\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 49",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"dad\",\n                            \"mon\",\n                            \"cousin\",\n                            \"furniture\",\n                            \"television\",\n                            \"blinds\",\n                            \"flower\",\n                            \"present\",\n                            \"sawdwich\",\n                            \"ice cream\",\n                            \"popsicle\",\n                            \"clothers\",\n                            \"skirt\",\n                            \"dress\",\n                            \"blouse\",\n                            \"pants\",\n                            \"shirt\",\n                            \"shoes\",\n                            \"toy\",\n                            \"Christimas\",\n                            \"name\",\n                            \"nickname\",\n                            \"last name\",\n                            \"clock\",\n                            \"watch\",\n                            \"ticket\",\n                            \"thirsty\",\n                            \"hungry\",\n                            \"hurry\"\n                        ],\n                        \"pronome\": [\n                            \"everything\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to do\",\n                            \"did\",\n                            \"to want\",\n                            \"wanted\",\n                            \"to try\",\n                            \"tried\",\n                            \"to start\",\n                            \"started\",\n                            \"to wait\",\n                            \"waited\",\n                            \"am\",\n                            \"are\",\n                            \"is\",\n                            \"to be\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"almost\"\n                        ],\n                        \"adjetivo\": [\n                            \"nice\",\n                            \"happy\",\n                            \"sad\",\n                            \"bored\",\n                            \"quiet\",\n                            \"cool\",\n                            \"sold out\"\n                        ],\n                        \"interjeicao\": [\n                            \"\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 51",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"boyfriend\",\n                            \"girlfriend\",\n                            \"man\",\n                            \"woman\",\n                            \"meal\",\n                            \"news\",\n                            \"story\",\n                            \"novel\",\n                            \"detective\",\n                            \"journalist\",\n                            \"writer\",\n                            \"executive\",\n                            \"whole\",\n                            \"couch\",\n                            \"problem\",\n                            \"check\",\n                            \"checkbook\",\n                            \"help\",\n                            \"conference room\",\n                            \"conference call\",\n                            \"everybody\",\n                            \"everyone\"\n                        ],\n                        \"pronome\": [\n                            \"whole\",\n                            \"everybody\",\n                            \"everyone\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to finish\",\n                            \"finished\",\n                            \"to come\",\n                            \"came\",\n                            \"to drink\",\n                            \"drank\",\n                            \"to eat\",\n                            \"ate\",\n                            \"can\",\n                            \"aren't\",\n                            \"isn't\",\n                            \"can't\",\n                            \"to care\",\n                            \"to give\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"together\",\n                            \"whole\",\n                            \"not\",\n                            \"everybody\",\n                            \"everyone\"\n                        ],\n                        \"adjetivo\": [\n                            \"single\",\n                            \"married\",\n                            \"rich\",\n                            \"poor\",\n                            \"light\",\n                            \"pretty\",\n                            \"glad\",\n                            \"upset\",\n                            \"busy\",\n                            \"tired\",\n                            \"wise\",\n                            \"sick\",\n                            \"healthy\",\n                            \"together\",\n                            \"whole\",\n                            \"myself\",\n                            \"yourself\",\n                            \"himself\",\n                            \"herself\",\n                            \"itself\",\n                            \"ourselves\",\n                            \"yourselves\",\n                            \"themselves\",\n                            \"everybody\",\n                            \"everyone\"\n                        ],\n                        \"interjeicao\": [\n                            \"but me\"\n                        ],\n                        \"numeral\": [\n                            \"part-time\",\n                            \"full-time\",\n                            \"first time\",\n                            \"this timve\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 53",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"bottle\",\n                            \"can\",\n                            \"straw\",\n                            \"box\",\n                            \"packege\",\n                            \"bag\",\n                            \"peach\",\n                            \"cookie\",\n                            \"adress\",\n                            \"block\",\n                            \"streat\",\n                            \"middle\",\n                            \"road\",\n                            \"hour\",\n                            \"own\",\n                            \"owner\",\n                            \"people\",\n                            \"foreign\",\n                            \"foreigner\",\n                            \"kid\",\n                            \"grandpa\",\n                            \"grandma\",\n                            \"grandfather\",\n                            \"grandmother\",\n                            \"grandparents\",\n                            \"grandson\",\n                            \"granddaughter\",\n                            \"grandchildren\",\n                            \"continent\",\n                            \"Asia\",\n                            \"Africa\",\n                            \"North America\",\n                            \"South America\",\n                            \"Antartica\",\n                            \"Europe\",\n                            \"Australia\",\n                            \"health\",\n                            \"up\",\n                            \"down\",\n                            \"left\",\n                            \"rigth\"\n                        ],\n                        \"pronome\": [\n                            \"if\",\n                            \"something\",\n                            \"anything\",\n                            \"rigth\",\n                            \"everything\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to have\",\n                            \"had\",\n                            \"to speak\",\n                            \"spoke\",\n                            \"to visit\",\n                            \"visited\",\n                            \"help\",\n                            \"helped\",\n                            \"to drive\",\n                            \"drove\",\n                            \"studyng\",\n                            \"sleeping\",\n                            \"helping\",\n                            \"writing\",\n                            \"starting\",\n                            \"going\",\n                            \"finishing\",\n                            \"closing\",\n                            \"to see\",\n                            \"to work\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"middle\",\n                            \"nothig\",\n                            \"anymore\",\n                            \"so\",\n                            \"close to\",\n                            \"rigth\",\n                            \"going on\"\n                        ],\n                        \"adjetivo\": [\n                            \"middle\",\n                            \"ago\",\n                            \"own\",\n                            \"light\",\n                            \"rigth\"\n                        ],\n                        \"interjeicao\": [\n                            \"already\",\n                            \"upside down\",\n                            \"feelling fine\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"while\",\n                            \"if\",\n                            \"right now\",\n                            \"so far\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 55",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"exercise\",\n                            \"film\",\n                            \"concert\",\n                            \"play\",\n                            \"theater\",\n                            \"pilot\",\n                            \"driver\",\n                            \"accident\",\n                            \"truck\",\n                            \"garage\",\n                            \"room\",\n                            \"bathroom\",\n                            \"living room\",\n                            \"dinning room\",\n                            \"fireplace\",\n                            \"wood\",\n                            \"word\",\n                            \"secret\",\n                            \"congratulations\",\n                            \"place\",\n                            \"show\"\n                        ],\n                        \"pronome\": [\n                            \"\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to live\",\n                            \"lived\",\n                            \"to understand\",\n                            \"understood\",\n                            \"to open\",\n                            \"opened\",\n                            \"to close\",\n                            \"closed\",\n                            \"would\",\n                            \"to go out\",\n                            \"there are\",\n                            \"let's\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"wouldn't\",\n                            \"not\",\n                            \"too much\",\n                            \"to little\",\n                            \"too late\"\n                        ],\n                        \"adjetivo\": [\n                            \"expensive\",\n                            \"cheap\",\n                            \"difficult\",\n                            \"easy\",\n                            \"simple\",\n                            \"complicated\",\n                            \"smart\",\n                            \"awesome\"\n                        ],\n                        \"interjeicao\": [\n                            \"good job\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 57",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"bed\",\n                            \"mistake\",\n                            \"speech\",\n                            \"plan\",\n                            \"sense\",\n                            \"cleaning\",\n                            \"favor\",\n                            \"housework\",\n                            \"translation\",\n                            \"dish\",\n                            \"maid\",\n                            \"housekeeper\",\n                            \"cook\",\n                            \"barbecue\",\n                            \"recipe\",\n                            \"salt\",\n                            \"sugar\",\n                            \"favorite\",\n                            \"special\",\n                            \"calorie\",\n                            \"less\",\n                            \"money\",\n                            \"phone call\",\n                            \"laundry\",\n                            \"dishes\",\n                            \"backup\",\n                            \"cell phone\",\n                            \"ceral\",\n                            \"bar\",\n                            \"noise\"\n                        ],\n                        \"pronome\": [\n                            \"less\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to prefer\",\n                            \"preferred\",\n                            \"to cook\",\n                            \"cooked\",\n                            \"to make\",\n                            \"made\",\n                            \"to pay\",\n                            \"paid\"\n                        ],\n                        \"preposicao\": [\n                            \"less\"\n                        ],\n                        \"adverbio\": [\n                            \"less\"\n                        ],\n                        \"adjetivo\": [\n                            \"delicious\"\n                        ],\n                        \"interjeicao\": [\n                            \"to make money\",\n                            \"to make a phone call\",\n                            \"to do the laundry\",\n                            \"to do the dishes\",\n                            \"to make a backup\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 59",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"veterinarian\",\n                            \"station\",\n                            \"classroom\",\n                            \"lesson\",\n                            \"note\",\n                            \"document\",\n                            \"dictionary\",\n                            \"information\",\n                            \"language\",\n                            \"coat\",\n                            \"uniform\",\n                            \"pijamas\",\n                            \"T-shirt\",\n                            \"cat\",\n                            \"dog\",\n                            \"horse\",\n                            \"fruit\",\n                            \"candy\",\n                            \"pill\",\n                            \"medicine\",\n                            \"gift\",\n                            \"shower\",\n                            \"hand\",\n                            \"face\",\n                            \"hair\",\n                            \"day\",\n                            \"week\",\n                            \"month\",\n                            \"year\",\n                            \"gift certificate\",\n                            \"somebody\",\n                            \"anybody\",\n                            \"joy\",\n                            \"everyone\",\n                            \"heaven\",\n                            \"sent\",\n                            \"manger\",\n                            \"birth\",\n                            \"king\",\n                            \"earth\",\n                            \"savior\",\n                            \"world\",\n                            \"Lord\"\n                        ],\n                        \"pronome\": [\n                            \"somebody\",\n                            \"anybody\",\n                            \"everyone\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to buy\",\n                            \"bought\",\n                            \"to sell\",\n                            \"sold\",\n                            \"to need\",\n                            \"needed\",\n                            \"to wash\",\n                            \"washed\",\n                            \"washes\",\n                            \"to save\",\n                            \"to bring\",\n                            \"brought\",\n                            \"to taught\"\n                        ],\n                        \"preposicao\": [\n                            \"a\"\n                        ],\n                        \"adverbio\": [\n                            \"nobody\",\n                            \"everyone\",\n                            \"above\"\n                        ],\n                        \"adjetivo\": [\n                            \"everyone\",\n                            \"laid\",\n                            \"sin\",\n                            \"holy\",\n                            \"mild\"\n                        ],\n                        \"interjeicao\": [\n                            \"to take a shower\",\n                            \"above\"\n                        ],\n                        \"numeral\": [\n                            \"once\",\n                            \"twice\",\n                            \"three times\"\n                        ],\n                        \"conjuncao\": [\n                            \"though\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 61",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"internet\",\n                            \"virus\",\n                            \"paper\",\n                            \"newsstand\",\n                            \"nightstand\",\n                            \"Brasilian\",\n                            \"American\",\n                            \"weather\",\n                            \"snow\",\n                            \"rain\",\n                            \"flog\",\n                            \"cloud\",\n                            \"sun\",\n                            \"important\",\n                            \"someone\"\n                        ],\n                        \"pronome\": [\n                            \"same\",\n                            \"someone\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to do\",\n                            \"did\",\n                            \"to pay\",\n                            \"paid\",\n                            \"to put\",\n                            \"put\",\n                            \"going to\",\n                            \"to access\",\n                            \"to care\",\n                            \"to call\",\n                            \"to call\",\n                            \"to let\"\n                        ],\n                        \"preposicao\": [\n                            \"on\"\n                        ],\n                        \"adverbio\": [\n                            \"same\",\n                            \"finally\"\n                        ],\n                        \"adjetivo\": [\n                            \"slow\",\n                            \"beautiful\",\n                            \"ready\",\n                            \"forgetful\",\n                            \"great\",\n                            \"foggy\",\n                            \"rainy\",\n                            \"sunny\",\n                            \"beautiful\",\n                            \"pretty\",\n                            \"special\",\n                            \"important\"\n                        ],\n                        \"interjeicao\": [\n                            \"to go to bed\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 63",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"song\",\n                            \"singer\",\n                            \"desk\",\n                            \"drawer\",\n                            \"eraser\",\n                            \"glue\",\n                            \"ruler\",\n                            \"pencil\",\n                            \"pencil holder\",\n                            \"pencil case\",\n                            \"mechanical pencil\",\n                            \"lead pencil\",\n                            \"bill\",\n                            \"receipt\",\n                            \"cafeteria\",\n                            \"account\",\n                            \"choir\",\n                            \"broke\",\n                            \"light\"\n                        ],\n                        \"pronome\": [\n                            \"\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to learn\",\n                            \"learned\",\n                            \"to sing\",\n                            \"sang\",\n                            \"to wait\",\n                            \"waited\",\n                            \"will\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"under\",\n                            \"behind\",\n                            \"light\"\n                        ],\n                        \"adjetivo\": [\n                            \"chilly\",\n                            \"heavy\",\n                            \"light\"\n                        ],\n                        \"interjeicao\": [\n                            \"every other day\",\n                            \"light\",\n                            \"by the way\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 65",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"sleeve\",\n                            \"collar\",\n                            \"glasses\",\n                            \"flavor\",\n                            \"vanilla\",\n                            \"garden\",\n                            \"gardener\",\n                            \"experience\",\n                            \"gentleman\",\n                            \"lady\",\n                            \"college\",\n                            \"university\",\n                            \"student\",\n                            \"hat\",\n                            \"sock\",\n                            \"tooth\",\n                            \"foot\",\n                            \"person\",\n                            \"people\",\n                            \"child\",\n                            \"children\",\n                            \"man\",\n                            \"men\",\n                            \"woman\",\n                            \"women\",\n                            \"ladies\",\n                            \"feet\",\n                            \"teeth\",\n                            \"box\",\n                            \"boxes\",\n                            \"Mr.\",\n                            \"Mrs.\",\n                            \"Ma'am\",\n                            \"Sir\",\n                            \"sweety\",\n                            \"honey\"\n                        ],\n                        \"pronome\": [\n                            \"I\",\n                            \"she\",\n                            \"he\",\n                            \"it\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to take\",\n                            \"took\",\n                            \"to clean\",\n                            \"cleaned\",\n                            \"to use\",\n                            \"used\",\n                            \"to hurry\",\n                            \"was\",\n                            \"wasn't\",\n                            \"to dream\"\n                        ],\n                        \"preposicao\": [\n                            \"outside\"\n                        ],\n                        \"adverbio\": [\n                            \"not\",\n                            \"as\",\n                            \"outside\"\n                        ],\n                        \"adjetivo\": [\n                            \"different\",\n                            \"hurry up\"\n                        ],\n                        \"interjeicao\": [\n                            \"as you know\",\n                            \"garden party\",\n                            \"to long for\",\n                            \"outside\"\n                        ],\n                        \"numeral\": [\n                            \"\"\n                        ],\n                        \"conjuncao\": [\n                            \"as\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 67",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"another\",\n                            \"notebook\",\n                            \"message\",\n                            \"life\",\n                            \"Switzerland\",\n                            \"Sweden\",\n                            \"refrigerator\",\n                            \"laptop\",\n                            \"printer\",\n                            \"everybody\",\n                            \"daytime\"\n                        ],\n                        \"pronome\": [\n                            \"everybody\",\n                            \"you\",\n                            \"we\",\n                            \"thet\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to think\",\n                            \"thought\",\n                            \"thinks\",\n                            \"to bring\",\n                            \"brought\",\n                            \"brings\",\n                            \"to leave\",\n                            \"left\",\n                            \"leaves\",\n                            \"were\",\n                            \"weren't\",\n                            \"to camp\",\n                            \"to hike\",\n                            \"to rest\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"away\",\n                            \"everybody\",\n                            \"not\"\n                        ],\n                        \"adjetivo\": [\n                            \"wonderful\",\n                            \"interested\",\n                            \"warm\",\n                            \"frozen\",\n                            \"away\",\n                            \"everybody\"\n                        ],\n                        \"interjeicao\": [\n                            \"to go away\",\n                            \"I think so\",\n                            \"I don't think so\"\n                        ],\n                        \"numeral\": [\n                            \"both\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lesson 69",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"frase\": [\n        {\n            \"name\": \"periodo\",\n            \"oracao\": [\n                {\n                    \"ordem\": 1,\n                    \"sujeito\": {\n                        \"substativo\": [\n                            \"ring\",\n                            \"kiss\",\n                            \"hug\",\n                            \"young\",\n                            \"youth\",\n                            \"teenager\",\n                            \"adolescent\",\n                            \"adult\",\n                            \"towel\",\n                            \"soap\",\n                            \"cracker\",\n                            \"napkin\",\n                            \"electricity bill\",\n                            \"program\",\n                            \"eletricity\",\n                            \"actually\",\n                            \"blue\",\n                            \"red\",\n                            \"green\",\n                            \"yellow\",\n                            \"orange\",\n                            \"black\",\n                            \"white\",\n                            \"gray\",\n                            \"brown\",\n                            \"purple\",\n                            \"pink\",\n                            \"silver\",\n                            \"gold\",\n                            \"sky\"\n                        ],\n                        \"pronome\": [\n                            \"\"\n                        ],\n                        \"artigo\": [\n                            \"\"\n                        ]\n                    },\n                    \"predicado\": {\n                        \"verbo\": [\n                            \"to look\",\n                            \"looked\",\n                            \"looks\",\n                            \"to see\",\n                            \"saw\",\n                            \"sees\",\n                            \"to give\",\n                            \"gave\",\n                            \"gives\",\n                            \"to leave\",\n                            \"to hear\",\n                            \"wanna\"\n                        ],\n                        \"preposicao\": [\n                            \"\"\n                        ],\n                        \"adverbio\": [\n                            \"inside\",\n                            \"outside\",\n                            \"under\"\n                        ],\n                        \"adjetivo\": [\n                            \"clean\",\n                            \"dirty\",\n                            \"empty\",\n                            \"full\",\n                            \"right\",\n                            \"wrong\",\n                            \"adult\",\n                            \"afraid\",\n                            \"wrong\",\n                            \"sad\"\n                        ],\n                        \"interjeicao\": [\n                            \"to go away\",\n                            \"to let someone know\"\n                        ],\n                        \"numeral\": [\n                            \"first\",\n                            \"second\",\n                            \"third\",\n                            \"fourth\",\n                            \"fifth\",\n                            \"sixth\",\n                            \"seventh\",\n                            \"eighth\",\n                            \"ninth\",\n                            \"tenth\",\n                            \"eleventh\",\n                            \"twelfth\",\n                            \"thirteenth\",\n                            \"fourteenth\",\n                            \"fifteenth\",\n                            \"sixteenth\",\n                            \"seventeenth\",\n                            \"eighteenth\",\n                            \"nineteenth\",\n                            \"twentieth\",\n                            \"twenty-first\",\n                            \"twenty-second\",\n                            \"thirtieth\",\n                            \"fortieth\",\n                            \"fiftieth\",\n                            \"sixtieth\",\n                            \"seventieth\",\n                            \"eightieth\",\n                            \"one hundredth\"\n                        ],\n                        \"conjuncao\": [\n                            \"\"\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
