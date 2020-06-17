@@ -1,0 +1,445 @@
+{
+	"info": {
+		"_postman_id": "a9851095-3a92-480c-beb4-4412026769ad",
+		"name": "recipe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "oxiácido",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"H\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 1,\n                \"charge\": 1,\n                \"amount\": 1,\n                \"fullName\": \"hidrogênio\",\n                \"rating\": \"hidrogênio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Cl\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 17,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"cloro\",\n                \"rating\": \"ametal\"\n            },\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": -1,\n                \"amount\": 1,\n                \"fullName\": \"oxigênio\",\n                \"rating\": \"ametal\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hidrácido",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"H\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 1,\n                \"charge\": 1,\n                \"amount\": 1,\n                \"fullName\": \"hidrogênio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"C\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 6,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"carbono\"\n            },\n            {\n                \"name\": \"N\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 7,\n                \"charge\": -1,\n                \"amount\": 1,\n                \"fullName\": \"nitrogênio\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "base",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Na\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 11,\n                \"charge\": 1,\n                \"amount\": 1,\n                \"fullName\": \"Sódio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Oxigênio\"\n            },\n            {\n                \"name\": \"H\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 1,\n                \"charge\": -1,\n                \"amount\": 1,\n                \"fullName\": \"Hidrogênio\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sal neutro",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Na\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 11,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Sódio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Cl\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 17,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Cloro\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sal ácido",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Na\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 11,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Cálcio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"H\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 1,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Hidrogênio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"C\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 6,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Cálcio\"\n            },\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": 0,\n                \"amount\": 3,\n                \"fullName\": \"Oxigênio\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sal básico",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Ca\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 20,\n                \"charge\": 1,\n                \"amount\": 1,\n                \"fullName\": \"Cálcio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Oxigênio\"\n            },\n            {\n                \"name\": \"H\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 1,\n                \"charge\": -1,\n                \"amount\": 1,\n                \"fullName\": \"Hidrogênio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Cl\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 17,\n                \"charge\": -1,\n                \"amount\": 1,\n                \"fullName\": \"Cloro\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sal dois cátions",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Na\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 11,\n                \"charge\": 1,\n                \"amount\": 1,\n                \"fullName\": \"sódio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Li\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 3,\n                \"charge\": 1,\n                \"amount\": 1,\n                \"fullName\": \"lítio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"S\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 6,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"enxofre\"\n            },\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": -2,\n                \"amount\": 4,\n                \"fullName\": \"oxigênio\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sal dois ânions",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Ca\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 20,\n                \"charge\": 2,\n                \"amount\": 1,\n                \"fullName\": \"cálcio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Cl\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 17,\n                \"charge\": -1,\n                \"amount\": 1,\n                \"fullName\": \"cloro\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Cl\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 17,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"cloro\"\n            },\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": -1,\n                \"amount\": 1,\n                \"fullName\": \"oxigênio\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sal hidratado",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Cu\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 29,\n                \"charge\": 2,\n                \"amount\": 1,\n                \"fullName\": \"cobre\",\n                \"rating\": \"metal\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"S\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 16,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"enxofre\",\n                \"rating\": \"metal\"\n            },\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": -2,\n                \"amount\": 4,\n                \"fullName\": \"oxigênio\",\n                \"rating\": \"ametal\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"mol\",\n        \"multiplier\": 2,\n        \"charge\": 0,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"H\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 1,\n                \"charge\": 0,\n                \"amount\": 2,\n                \"fullName\": \"hidrogênio\",\n                \"rating\": \"hidrogênio\"\n            },\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"oxigênio\",\n                \"rating\": \"ametal\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "óxido",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Ca\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 20,\n                \"charge\": 2,\n                \"amount\": 1,\n                \"fullName\": \"cálcio\",\n                \"rating\": \"metal\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": 2,\n                \"amount\": 1,\n                \"fullName\": \"oxigênio\",\n                \"rating\": \"ametal\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "peróxido",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"H\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 1,\n                \"charge\": 0,\n                \"amount\": 2,\n                \"fullName\": \"hidrogênio\",\n                \"rating\": \"hidrogênio\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": 0,\n                \"amount\": 2,\n                \"fullName\": \"oxigênio\",\n                \"rating\": \"ametal\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "óxido não metal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -4,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"C\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 6,\n                \"charge\": -4,\n                \"amount\": 1,\n                \"fullName\": \"carbono\",\n                \"rating\": \"ametal\"\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 2,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"O\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 8,\n                \"charge\": 2,\n                \"amount\": 2,\n                \"fullName\": \"oxigênio\",\n                \"rating\": \"ametal\"\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "teste",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": 1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Na\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 11,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Sódio\",\n                \"bulk\": 23.0\n            }\n        ]\n    },\n    {\n        \"name\": \"equation\",\n        \"type\": \"ion\",\n        \"multiplier\": 1,\n        \"charge\": -1,\n        \"amount\": 1,\n        \"role\": [\n            {\n                \"name\": \"Cl\",\n                \"type\": \"default\",\n                \"multiplier\": 1,\n                \"valence\": 17,\n                \"charge\": 0,\n                \"amount\": 1,\n                \"fullName\": \"Cloro\",\n                \"bulk\": 35.5\n            }\n        ]\n    }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
